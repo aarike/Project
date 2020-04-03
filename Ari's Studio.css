@@ -1,0 +1,88 @@
+#phoneicon{
+	color: red;
+}
+#icon{
+	color: #000000;
+}
+#nav2{
+	margin-top: 50px; 
+}
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  .contact{ display: none; }   
+}
+body{
+	padding: 0px;
+}
+#myicons{
+	font-family: serif; font-size: 12px;
+}
+html{
+	height: 100%
+}
+#content{
+	text-align: center;
+	text-shadow:  0px 4px 3px rgba(0,0,0,0.4), 
+	              0px 8px 13px rgba(0,0,0,0.1),
+	              0px 18px 23px rgba(0,0,0,0.1);
+}
+h1,h2,h4{
+	color: white;
+	font-weight: 700;
+	font-size:4em;
+	padding-top:3%
+}
+hr{
+	width: 400px;
+	border-top: 1px solid #f8f8f8;
+	border-bottom: 1px solid rgba(0,0,0,0.2)
+}
+#element-with-background-image{
+	position: relative;
+	background-image: url(images/sew.jpg);
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+	background-color: transparent;
+	min-height: 400px;
+}
+#color-overlay{
+	position: relative;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: black;
+	opacity: 0.6;
+}
+#contain{
+	background-color: white;
+	padding-top: 2%;
+	font-family: serif; font-size: 35px;
+	text-align:center;
+	color: black;
+	font-weight: 700;
+	opacity: 0.6
+
+}
+.centered{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+.carousel-inner img{
+	width: 100%;
+	height: 100%;
+}
+#hr{
+	width: 150px;
+	border-top: 4px solid #f8f8f8;
+	border-bottom: 4px solid rgba(0,0,0,0.2)	
+}
+#contact{
+	text-align: center;
+	color: white;
+}
+#test{
+	padding-top: 15%
+}
